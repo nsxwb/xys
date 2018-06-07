@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+.hd_right input{
+	width: 380px;
+	height: 25px;
+}
+.banner{
+	position: relative;
+	height: 340px;
+}
+.banner img{
+
+	height: 340px;
+	width: 100%;
+}
+
+
+.banner_text{
+	width: 310px;
+	height: 210px;
+	position: absolute;
+	left:50%; top:20px;
+	margin-left: -500px;
+
+}
+
+/*
+
+position:static; 清除定位
+	float:none;  清除浮动
+*/
+
+
+
+
+.gWidth{
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner_text a{
+	color: #FFF;
+}
+.tui{
+	width: 1000px;
+	height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 26px;
+}
+.tui ul{
+	margin-left: 20px;
+}
+.tui ul li{
+	width: 309px;
+	float: left;
+	margin-right: 10px;
+}
+.tui p{
+	width: 309px;
+	margin-top: 5px;
+}
+.tui p a{
+	color: blue;
+}
+.q{
+	margin-right: 0px;
+}
+
+
+.content{
+	width: 1000px;
+	height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.le h1{
+	font-size: 36px;
+	width: 100%;
+	font-weight: normal;
+	float: left;
+	display: block;
+}
+.xb{
+	display: none;
+}
+.le{
+	width: 245px;
+	height: 270px;
+	position: absolute;
+	top: 0px; left: 20px;
+}
+
+.le a{
+	display: block;
+	color: blue;
+	margin-top: 24px;
+	float: none;
+}
+
+.ri{
+	width: 740px;
+	height: 260px;
+	position: absolute;
+	top: 0; right: 0;
+	display: block;
+}
+.ri h2{
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+}
+.ri h2 span{
+	padding: 5px;
+	margin-right: 5px;
+}
+.ri h2 .act{
+	background-color: #1570A6;
+	color: #FFF;
+}
+.ri .buy li{
+	width: 230px;
+	float: left;
+	margin-right: 15px;
+}
+.ri .buy .q{
+	margin-right: 0;
+}
+.ri .buy{
+	margin-top: 12px;
+}
+.ri .buy a{
+	width: 230px;
+	color: blue;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.xz{
+	width: 1000px;
+	height: 170px;
+	display: block;
+	margin: 20px auto 60px auto;
+}
+.down{
+	width: 744px;
+	height: 170px;
+	float: right;
+}
+.down ul{
+	float: left;
+}
+.down ul li{
+	margin-right: 100px;
+	margin-top: 10px;
+	text-align: left;
+}
+.big{
+	font-size: 24px;
+}
+.down ul li a{
+	color: blue ;
+}
+.gzwr{
+	width: 1000px;
+	height: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1570A6;
+	display: block;
+}
+.pgzwr{
+	display: none;
+}
+.gzwr .zuo{
+	margin-left: 30px;
+}
+.gzwr .zuo h1{
+	padding-top: 40px;
+	font-size: 40px;
+	font-weight: normal;
+	color: #FFF;
+}
+.gzwr .zuo a{
+	color: #FFF;
+	font-size: 16px;
+	display: block;
+	margin-top: 17px;
+}
+.gzwr .you{
+	width: 710px;
+	height: 223px;
+	background-color: rgba(0, 0, 0, .3);
+	margin-top: -140px;
+	margin-left: 256px;
+}
+.gzwr .you img{
+	margin-top: 29px;
+	margin-left: 20px;
+	padding-right: 20px;
+	float: left;
+}
+.gzwr .you h2{
+	width: 486px;
+	font-size: 22px;
+	color: #FFF;
+	padding-top: 30px;
+	
+	font-weight: normal;
+	display: inline-block;
+}
+.gzwr .you p{
+	display: block;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #FFF;
+	padding-right: 20px;
+	margin-top: 8px;
+}
+.footer{
+	width: 980px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	margin-top: 30px;
+}
+.footer ul li a{
+	color: blue;
+	font-size: 14px;
+	line-height: 20px;
+}
+.footer ul{
+	float: left;
+	width: 245px;
+}
+.footer .da{
+	margin-bottom: 20px;
+}
+.footer .z{
+	background: url('../imgs/win.png') no-repeat left center;
+	padding-left: 35px;
+}
+.footer .x{
+	background: url('../imgs/of.png') no-repeat left center;
+	padding-left: 35px;
+}
+.footer .c{
+	background: url('../imgs/su.png') no-repeat left center;
+	padding-left: 35px;
+}
+.footer .v{
+	background: url('../imgs/wp.png') no-repeat left center;
+	padding-left: 35px;
+}
+.footer .b{
+	background: url('../imgs/ph.png') no-repeat left center;
+	padding-left: 35px;
+}
+.footer .n{
+	background: url('../imgs/by.png') no-repeat left center;
+	padding-left: 35px;
+}.footer .m{
+	background: url('../imgs/gf.png') no-repeat left center;
+	padding-left: 35px;
+}
+.footer .s{
+	background: url('../imgs/sk.png') no-repeat left center;
+	padding-left: 35px;
+}
+.footer .u_s{
+	margin-left: 490px;
+	margin-top: -50px;
+}
+.foot{
+	width: 1000px;
+	height: 88px;
+	margin: 140px auto 20px auto;
+}
+
+.f_a{
+	float: left;
+	background: url('../imgs/dq.png') no-repeat left center;
+	padding-left: 35px;
+}
+.f_b{
+	float: right;
+	color: #626262;
+}
+.foot a{
+	color: blue;
+}
+.foot p{
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.f_c{
+	margin-bottom: 20px;
+	margin-top: 30px;
+	display: inline-block;
+	text-align: center;
+}
+.f_c a{
+	font-size: 14px;
+	color: blue;
+	margin-right: 10px;
+}
